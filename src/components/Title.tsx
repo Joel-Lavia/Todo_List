@@ -5,7 +5,7 @@ function Title(): JSX.Element {
   const title: string = 'TODO LIST';
   return (
     <View>
-      <Text style={styles.title} >{title}</Text>
+      <Text style={styles.title}>{title}</Text>
     </View>
   );
 }

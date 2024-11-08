@@ -1,12 +1,11 @@
-import { Text, View } from "react-native";
+import {Text, View} from 'react-native';
 
-function InProgressTask():JSX.Element {
-
-return(
-<View>
-<Text>In Progress Task</Text>
-</View>
-) 
+function InProgressTask(): JSX.Element {
+  return (
+    <View>
+      <Text>In Progress Task</Text>
+    </View>
+  );
 }
 
-export default InProgressTask
+export default InProgressTask;
