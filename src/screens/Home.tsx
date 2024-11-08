@@ -1,5 +1,6 @@
 import { Button, View } from "react-native";
 import Title from "../components/Title";
+import styles from "../styles/style";
 // import { useNavigation } from "@react-navigation/native";
 
 function Home({navigation}:{navigation:any}):JSX.Element {

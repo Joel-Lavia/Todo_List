@@ -1,8 +1,9 @@
 import {Text, View} from 'react-native';
+import styles from '../styles/style';
 function CompletTask(): JSX.Element {
   return (
     <View>
-      <Text>Complet Task</Text>
+      <Text style={styles.text}>Complet Task</Text>
     </View>
   );
 }
