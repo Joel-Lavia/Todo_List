@@ -6,11 +6,10 @@ import styles from "../styles/style";
 function Home({navigation}:{navigation:any}):JSX.Element {
 // const navigation : any = useNavigation();
 return(
-<View>
+<View style = {styles.header}>
 <Button title="Complet task" onPress={()=>navigation.navigate("Complet Task")}/> 
 <Button title="In progres task" onPress={()=>navigation.navigate("In progres Task")}/>   
-  
-<Title/>
+{/* <Title/> */}
 </View>
 )
 }
